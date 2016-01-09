@@ -29,10 +29,10 @@ function init () {
 		controls.minDistance = 15;
 		controls.zoomSpeed = 0.8;
 
-		//Set up Text Wrapper
+		//Set up Text Wrapper!!
 		var Wrapper = new TextWrapper();
-		
-		var text = Wrapper.Wrap('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 2, 0x0000FF, 30, 0.2, 0, 0, 0);
+		var input = 'Hey whats up! hows it going? this text is gonna wrap real nice. swag swag. while loop is working but it wont recursively do it yet :( hey hey hey hey hey hey hey hey';
+		var text = Wrapper.Wrap(input, 10, 0x0000FF, 50, .2, 0, 0, 0);
 		scene.add( text );
 
 
