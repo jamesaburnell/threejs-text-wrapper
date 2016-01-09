@@ -31,12 +31,12 @@ function init () {
 
 		//Set up Text Wrapper!!
 		var Wrapper = new TextWrapper();
-		var input = 'How much wood would a wood chuck chuck if a wood chuck could chuck wood. Happy birthday to you, happy birthday to you, happy birthday to you you. happy birthday to you.';
+		var input = 'Walkin down the street in my \'64, Jockin\' the bitches, slappin\' the hoes, went to the park to get the scoop, knuckheads out there cold shootin\' some hoops. A car pulls up, who can it be? A fresh El Camino rolled, Kilo G, He rolls down his window and he started to say, It\'s all about makin\' that GTA';
 		var text = Wrapper.Wrap({ 
 			string: input, 
 			size: 10, 
 			color: 0x0000FF, 
-			lineLength: 50, 
+			lineLength: 100, 
 			height: .2, 
 			startingX: 0, 
 			startingY: 0, 
