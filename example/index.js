@@ -2,6 +2,7 @@ var camera, scene, renderer, controls;
 
 init();
 render();
+
 function init () {
 
 	var WIDTH = window.innerWidth,
@@ -30,11 +31,13 @@ function init () {
 		controls.zoomSpeed = 0.8;
 
 		//Set up Text Wrapper!!
-		var Wrapper = new TextWrapper();
-		var input = 'Walkin down the street in my \'64, Jockin\' the bitches, slappin\' the hoes, went to the park to get the scoop, knuckheads out there cold shootin\' some hoops. A car pulls up, who can it be? A fresh El Camino rolled, Kilo G, He rolls down his window and he started to say, It\'s all about makin\' that GTA';
+		var Wrapper = new TextWrapper(),
+		    input = 'On a dark desert highway, cool wind in my hair, Warm smell of colitas, rising up through the air, Up ahead in the distance, I saw a shimmering light, My head grew heavy and my sight grew dim, I had to stop for the night, There she stood in the doorway; I heard the mission bell, And I was thinking to myself, "This could be Heaven or this could be Hell", Then she lit up a candle and she showed me the way, There were voices down the corridor, I thought I heard them say...';
+		
+		// Wrap that shit
 		var text = Wrapper.Wrap({ 
 			string: input, 
-			size: 10, 
+			size: 5, 
 			color: 0x0000FF, 
 			lineLength: 100, 
 			height: .2, 
@@ -44,9 +47,6 @@ function init () {
 		});
 
 		scene.add( text );
-
-		// input, 10, 0x0000FF, 50, .2, 0, 0, 0)
-
 
 }
 

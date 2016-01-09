@@ -53,8 +53,6 @@ TextWrapper.prototype.Wrap = function ( options ) {
 		group.add( textMesh );
 		position.y -= options.size*2;
 
-		// Cut out text that was already rendered
-		console.log(cutText);
 	}
 
 	cutText = cutText.trim();
@@ -69,7 +67,4 @@ TextWrapper.prototype.Wrap = function ( options ) {
 	return group;
 
 }
-
-// trim white space on new lines
-// !!!!! Need to check if next char is letter, then retrace back until it is a space, then get substring.
 
