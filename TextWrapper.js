@@ -26,6 +26,7 @@ TextWrapper.prototype.Wrap = function ( text, size, color, lineLength, textHeigh
 
 		//Grab First part of string and render as new line
 		var line = text.substring(0, lineLength);
+		console.log(line);
 		var textGeometry = new THREE.TextGeometry( line, {
 			size: size,
 			height: textHeight,
@@ -37,7 +38,7 @@ TextWrapper.prototype.Wrap = function ( text, size, color, lineLength, textHeigh
 		// Set it's position, then offset y coord for next line
 		textMesh.position.set( position.x, position.y, position.z )
 		group.add( textMesh );
-		position.y -= 4;
+		position.y -= size*2;
 
 		//Cut out text that was already rendered
 		var cutText = text.slice(lineLength);
