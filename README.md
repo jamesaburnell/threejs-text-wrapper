@@ -6,7 +6,7 @@ Requires the Three.js TextGeometry, FontUtils, and a typeface.js font to work! Y
 ## Usage
 
 ```html
-var Wrapper = new TextWrapper(),
+var Wrapper = new TextWrapper();
 
 var input = 'some super long text that needs to wrap';
 		
