@@ -21,5 +21,5 @@ var text = Wrapper.Wrap({
 	startingZ: 0 
 });
 
-	scene.add( text );
+scene.add( text );
 ```
