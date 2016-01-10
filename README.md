@@ -7,13 +7,13 @@ Requires the Three.js TextGeometry, FontUtils, and a typeface.js font to work! Y
 
 ```html
 var Wrapper = new TextWrapper(),
-		    input = 'On a dark desert highway, cool wind in my hair, Warm smell of colitas, rising up through the air, Up ahead                   in the distance, I saw a shimmering light, My head grew heavy and my sight grew dim, I had to stop for the                   night, There she stood in the doorway; I heard the mission bell, And I was thinking to myself, "This could                   be Heaven or this could be Hell", Then she lit up a candle and she showed me the way, There were voices                      down the corridor, I thought I heard them say...';
+		var input = 'some super long text that needs to wrap';
 		
 		var text = Wrapper.Wrap({ 
 			string: input, 
 			size: 5, 
 			color: 0x0000FF, 
-			lineLength: 100, 
+			lineLength: 50, 
 			height: .2, 
 			startingX: 0, 
 			startingY: 0, 
