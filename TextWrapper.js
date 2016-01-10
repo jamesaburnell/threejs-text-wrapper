@@ -1,4 +1,4 @@
-// ** James Burnell. 2016 ********************************
+// ** James Burnell. jamesaburnell@gmail.com ********************************
 
 function TextWrapper () {
 	
