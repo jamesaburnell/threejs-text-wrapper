@@ -10,9 +10,9 @@ TextWrapper.prototype.Wrap = function ( options ) {
 	
 	// Save Starting Positions
 	var position = { 
-		x: options.startingX, 
-		y: options.startingY, 
-		z: options.startingZ 
+		x: options.coords.x, 
+		y: options.coords.y, 
+		z: options.coords.z 
 	};
 
 	var cutText = options.string;
