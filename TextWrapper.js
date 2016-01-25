@@ -4,7 +4,7 @@ function TextWrapper () {
 	
 }
 
-// options: string, size, color, lineLength, height, startingX, startingY, startingZ
+// options: string, size, color, lineLength, height, coords
 TextWrapper.prototype.Wrap = function ( options ) {
 	var group = new THREE.Object3D();
 	
@@ -49,7 +49,6 @@ TextWrapper.prototype.Wrap = function ( options ) {
 
 		// Set it's position, then offset y coord for next line
 		textMesh.position.set( position.x, position.y, position.z );
-		
 		group.add( textMesh );
 		position.y -= options.size*2;
 
