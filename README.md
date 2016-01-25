@@ -16,9 +16,11 @@ var text = Wrapper.Wrap({
 	color: 0x0000FF, 
 	lineLength: 50, 
 	height: .2, 
-	startingX: 0, 
-	startingY: 0, 
-	startingZ: 0 
+	coords: {
+	     x: 0,
+	     y: 0,
+	     z: 0
+	} 
 });
 
 scene.add( text );
