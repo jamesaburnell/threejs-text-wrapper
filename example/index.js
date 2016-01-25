@@ -37,10 +37,10 @@ function init () {
 		// Wrap that shit
 		var text = Wrapper.Wrap({ 
 			string: input, 
-			size: 5, 
+			size: 10, 
 			color: 0x0000FF, 
-			lineLength: 100, 
-			height: .2, 
+			lineLength: 200, 
+			height: 1, 
 			startingX: 0, 
 			startingY: 0, 
 			startingZ: 0 
