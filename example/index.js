@@ -39,7 +39,7 @@ function init () {
 			string: input, 
 			size: 10, 
 			color: 0x0000FF, 
-			lineLength: 200, 
+			lineLength: 50, 
 			height: 1, 
 			startingX: 0, 
 			startingY: 0, 
